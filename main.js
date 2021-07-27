@@ -19,7 +19,7 @@ const randomFunc = {
 clipboardEl.addEventListener('click', () => {
     const textarea = document.createElement('textarea');
     const password = resultEl.innerText;
-
+    // This is a change
     if(!password) {
         return;
     }
